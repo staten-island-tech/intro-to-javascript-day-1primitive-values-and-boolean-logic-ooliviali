@@ -41,15 +41,15 @@ let undefinedVar;
 console.log(undefinedVar); //console log variables
 console.log(nonExistent); //null
 
-*/
-//if/ else if statements
-//let student1 = "Karen";
-//let age=17;
-//console.log(student === "Karen"); //true
-//console.log(student === "Karen"); //false
-//console.log(student == "karen"); //false
-//console.log(age === "17"); //false
-//console.log(age == "17"); //true
+
+if/ else if statements
+let student1 = "Karen";
+let age=17;
+console.log(student === "Karen"); //true
+console.log(student === "Karen"); //false
+console.log(student == "karen"); //false
+console.log(age === "17"); //false
+console.log(age == "17"); //true
 
 let school= "middle";
 if (school == "elementary") {
@@ -59,3 +59,45 @@ if (school == "elementary") {
 } else {
     console.log("you are in high school");
 }
+
+//stop light
+let light= ``;
+if (light === "green") {
+    console.log("go");
+} if (light === "yellow") {
+    console.log("caution");
+} else {
+    console.log("stop")
+}
+
+
+//coffee
+let kristyInt = false;
+let baobaoInt = false;
+
+if(kristyInt === true && baobaoInt == true) {
+    console.log("They will get almond milk");
+} else if (kristyInt === true || baobaoInt == true) {
+    console.log("They will get milk and almond milk");
+} else  {
+    console.log("They will get milk");
+}
+*/
+
+//cupcake temp
+let temp = 3465456;
+
+if(temp < 68) {
+    console.log ("too cold");
+}
+else if (temp >= 68 && temp <= 72) {
+    console.log ("perfect")
+}
+else if (temp >= 73 && temp <= 76) {
+    console.log ("warm");
+}
+else {
+    console.log("too hot");
+}
+
+
